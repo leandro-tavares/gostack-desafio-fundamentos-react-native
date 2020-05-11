@@ -1,10 +1,11 @@
+/* eslint-disable no-console */
 import React, { useState, useEffect } from 'react';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 import { View, Image } from 'react-native';
 
 import formatValue from '../../utils/formatValue';
-import { useCart } from '../../hooks/cart';
+import { useCart, Product as CartProduct } from '../../hooks/cart';
 import api from '../../services/api';
 
 import FloatingCart from '../../components/FloatingCart';
@@ -35,14 +36,21 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     async function loadProducts(): Promise<void> {
-      // TODO
+      try {
+        const response = await api.get('/products');
+
+        setProducts(response.data);
+      } catch (err) {
+        console.log(err);
+      }
     }
 
     loadProducts();
   }, []);
 
-  function handleAddToCart(item: Product): void {
-    // TODO
+  function handleAddToCart(item: CartProduct): void {
+    const product = item;
+    addToCart(product);
   }
 
   return (

@@ -1,28 +1,40 @@
 {
   "products": [
     {
-      "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "id": "BRS",
+      "title": "Boston Red Socks",
+      "image_url": "https://content.sportslogos.net/logos/53/53/thumbs/c0whfsa9j0vbs079opk2s05lx.gif",
       "price": 50
     },
     {
-      "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "id": "DT",
+      "title": "Detroit Tigers",
+      "image_url": "https://content.sportslogos.net/logos/53/59/thumbs/5989642016.gif",
       "price": 60
     },
     {
-      "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "id": "NYY",
+      "title": "New York Yankees",
+      "image_url": "https://content.sportslogos.net/logos/53/68/thumbs/1256.gif",
       "price": 70
     },
     {
-      "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "id": "LAA",
+      "title": "Los Angeles Angels",
+      "image_url": "https://content.sportslogos.net/logos/53/6521/thumbs/652143892016.gif",
       "price": 80
+    },
+    {
+      "id": "KCR",
+      "title": "Kansas City Royals",
+      "image_url": "https://content.sportslogos.net/logos/53/62/thumbs/6283222019.gif",
+      "price": 90
+    },
+    {
+      "id": "HA",
+      "title": "Houston Astros",
+      "image_url": "https://content.sportslogos.net/logos/53/4929/thumbs/492995032000.gif",
+      "price": 40
     }
   ]
 }

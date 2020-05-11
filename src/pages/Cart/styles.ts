@@ -14,7 +14,7 @@ export const ProductContainer = styled.View`
 `;
 
 export const ProductList = styled(FlatList)`
-  flex: 1;
+  /* flex: 1; */
   padding: 0 10px;
 `;
 
@@ -28,8 +28,8 @@ export const Product = styled.View`
 `;
 
 export const ProductImage = styled.Image`
-  height: 92px;
-  width: 92px;
+  height: 72px;
+  width: 72px;
 `;
 
 export const ProductTitleContainer = styled.View`
